@@ -1,0 +1,32 @@
+body{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+/* Cards styling */
+.card{
+  background: #8b5cf6;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* Mobile first layout */
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+/* Tablet and Desktop */
+@media (min-width: 768px){
+  
+  .container{
+    flex-direction: row;
+    justify-content: center;
+    padding: 32px;
+  }
+
+}

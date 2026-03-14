@@ -1,0 +1,48 @@
+/* Remove default spacing */
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation bar */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background: #1a1a2e;
+}
+
+/* Logo */
+.logo{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation links container */
+.nav-links{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Links */
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Hover effect */
+.nav-links a:hover{
+  color: #8b5cf6;
+}
+
+/* Page content */
+.content{
+  text-align: center;
+  padding: 60px;
+}

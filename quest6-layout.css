@@ -1,0 +1,46 @@
+body{
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Flex Container */
+.container{
+  display: flex;
+  gap: 16px;
+  justify-content: center; /* horizontal alignment */
+  align-items: center; /* vertical alignment */
+  margin: 40px;
+}
+
+/* Boxes */
+.box{
+  background: #8b5cf6;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 120px;
+}
+
+/* Column Layout */
+.column-container{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  margin: 40px;
+}
+
+/* Center Anything */
+.centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.center-box{
+  background: #667eea;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+}

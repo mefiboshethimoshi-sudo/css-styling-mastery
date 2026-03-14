@@ -1,0 +1,41 @@
+
+
+ /* Step 2: Apply font to body */
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 40px;
+    background-color: #f9f9f9;
+}
+
+/* Step 3: Style headings */
+h1 {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center; /* optional centering */
+}
+
+h2 {
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none; /* remove underlines */
+    color: #6366f1; /* nice link color */
+}
+
+/* Optional: center main content */
+.container {
+    max-width: 800px;
+    margin: auto;
+}

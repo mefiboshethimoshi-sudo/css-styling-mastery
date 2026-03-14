@@ -1,0 +1,60 @@
+/* General Body */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Hero Section with Gradient */
+.hero {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 12px; /* subtle rounded corners */
+    margin: 20px;
+}
+
+/* Headings */
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+h2 {
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn {
+    background: #8b5cf6;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+.btn:hover {
+    background: #7c3aed;
+}
+
+/* Content Section */
+.content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Color Samples */
+.color-sample {
+    font-weight: 600;
+}
